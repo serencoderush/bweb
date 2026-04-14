@@ -1,0 +1,62 @@
+:root {
+  /* Brand Colors */
+  --color-brand:        #f96319;
+  --color-brand-hover:  rgba(217, 76, 6, 1);
+
+  /* Backgrounds */
+  --color-black:        #000000;
+  --color-charcoal:     #212121;
+  --color-charcoal-dark:#282828;
+  --color-card-bg:      rgba(25, 25, 25, 1);
+  --color-section-alt:  #111111;
+
+  /* Text */
+  --color-white:        #ffffff;
+  --color-text-muted:   rgba(255, 255, 255, 0.65);
+  --color-text-dim:     rgba(255, 255, 255, 0.45);
+
+  /* Borders */
+  --color-gray-border:  #dadada;
+  --color-gray-mid:     #cccccc;
+  --color-border-dark:  #282828;
+  --color-border-subtle:#1a1a1a;
+
+  /* Overlays */
+  --color-overlay:      rgba(0, 0, 0, 0.7);
+
+  /* Accents */
+  --color-green:        #00d255;
+  --color-blue:         #00B8FF;
+
+  /* Typography */
+  --font-en: 'Montserrat', sans-serif;
+  --font-kr: 'Noto Sans KR', sans-serif;
+
+  /* Font Sizes */
+  --fs-xs:    12px;
+  --fs-sm:    13px;
+  --fs-base:  14px;
+  --fs-md:    16px;
+  --fs-lg:    18px;
+  --fs-xl:    20px;
+  --fs-2xl:   24px;
+  --fs-3xl:   32px;
+  --fs-4xl:   48px;
+  --fs-hero:  clamp(36px, 6vw, 72px);
+
+  /* Layout */
+  --max-width:  1280px;
+  --pad-std:    15px;
+  --pad-wide:   80px;
+  --pad-section:80px;
+
+  /* Header */
+  --header-h:        90px;
+  --header-h-scroll: 70px;
+  --header-h-mobile: 79px;
+
+  /* Transitions */
+  --ease:          0.3s ease;
+  --ease-carousel: 0.6s ease;
+  --ease-reveal:   0.6s ease;
+}
